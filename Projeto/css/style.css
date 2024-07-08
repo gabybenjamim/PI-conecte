@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+    margin: auto;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+    width: 70%;
+    font-size: 15px;
+}
+
+img{
+    width: 80px;
+    margin: 10px auto;
+}
+
+.imagem{
+    width: 30%;
+    margin: 5px;
+    margin: 10px auto;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 0 5px ;
+    margin: 10px auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.image1 {
+    background-image: url(/Projeto/img/imagem\ de\ fundo.jpeg);
+    background-attachment: fixed;
+}
+
+section{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem1 h1 {
+    text-align: center;
+}
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    font-size: auto;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;    
+}
+
+.titulo h1, .titulo p{
+    margin-bottom: 20px;
+}
+
+.titulo h1{
+    font-weight: normal;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo p{
+ font-family: merriwather;
+}
+
+.container-botoes {
+    position: absolute;
+    top: 68%;
+    left: 318px;
+    transform: translate(-50%, -50%);
+    font-size: auto;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;  
+  }
+  
+.botao-login, .botao-criar {
+    background-color: #876B42;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+   
+  
+}
+
+footer.img{
+    width: 30%;
+    margin: 5px;
+    margin: 10px auto;
+    width: 250px;
+    height: 200px;
+   
+    margin: 5px 5px 5px 0;
+    display:inline-block;
+    
+  
+}
